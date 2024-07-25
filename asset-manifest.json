@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/throne/static/css/main.bab74804.css",
+    "main.js": "/throne/static/js/main.aa1953fa.js",
+    "static/js/453.dda2dfbe.chunk.js": "/throne/static/js/453.dda2dfbe.chunk.js",
+    "static/media/mapa.jpg": "/throne/static/media/mapa.af86bdcd67c155e98145.jpg",
+    "index.html": "/throne/index.html",
+    "main.bab74804.css.map": "/throne/static/css/main.bab74804.css.map",
+    "main.aa1953fa.js.map": "/throne/static/js/main.aa1953fa.js.map",
+    "453.dda2dfbe.chunk.js.map": "/throne/static/js/453.dda2dfbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bab74804.css",
+    "static/js/main.aa1953fa.js"
+  ]
+}
