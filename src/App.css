@@ -174,15 +174,14 @@ img {
 @media (max-width: 768px) {
   .houseStark {
     width: 30px;
-    position: absolute;
     right: 45%;
-    top: 27%;
+    top: 31%;
   }
 
   .houseTargaryen {
     width: 17px;
     right: 7%;
-    top: 50%;
+    top: 52%;
   }
 
   .container-fluid h1 {
@@ -196,32 +195,32 @@ img {
 
   .boxNightKing {
     width: 4vh;
-    top: 14%;
+    top: 16%;
   }
 
   .houseLann {
-    top: 50%;
+    top: 53%;
     width: 3vh;
   }
 
   .houseTully {
-    top: 50%;
+    top: 53%;
     width: 3vh;
   }
 
   .houseGreyjoy {
-    top: 42%;
+    top: 45%;
     width: 3vh;
   }
 
   .houseTyrell {
-    top: 60%;
+    top: 63%;
     width: 3vh;
     left: 23%;
   }
 
   .houseBaratheon {
-    top: 59%;
+    top: 62%;
     width: 3vh;
     left: 65%;
   }
