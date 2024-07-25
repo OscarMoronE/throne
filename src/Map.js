@@ -5,14 +5,14 @@ import Modal from './contexto/Modal';
 
 const Map = () => {
     const { casa } = useContext(Contexto)
-    const stark = `../images/${casa[0].stark.logo}`
+    const stark = `${process.env.PUBLIC_URL}/images/${casa[0].stark.logo}`
     const idioma = casa[3].idioma;
-    const targaryen = `../images/${casa[0].targaryen.logo}`
-    const tully = `../images/${casa[0].tully.logo}`
-    const tyrell = `../images/${casa[0].tyrell.logo}`
-    const baratheon = `../images/${casa[0].baratheon.logo}`
-    const greyjoy = `../images/${casa[0].greyjoy.logo}`
-    const lannister = `../images/${casa[0].lannister.logo}`
+    const targaryen = `${process.env.PUBLIC_URL}/images/${casa[0].targaryen.logo}`
+    const tully = `${process.env.PUBLIC_URL}/images/${casa[0].tully.logo}`
+    const tyrell = `${process.env.PUBLIC_URL}/images/${casa[0].tyrell.logo}`
+    const baratheon = `${process.env.PUBLIC_URL}/images/${casa[0].baratheon.logo}`
+    const greyjoy = `${process.env.PUBLIC_URL}/images/${casa[0].greyjoy.logo}`
+    const lannister = `${process.env.PUBLIC_URL}/images/${casa[0].lannister.logo}`
 
     //House STARK
     const [ocultar, setocultar] = useState(false);

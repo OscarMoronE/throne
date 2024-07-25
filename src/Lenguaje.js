@@ -1,5 +1,8 @@
 import React, { useContext, useState } from 'react'
 import Contexto from './contexto/Contexto';
+import uk from './uk.png';
+import spain from './spain.jpg';
+import valyrio from './velaryon.png';
 
 const Lenguaje = () => {
     const { setCasa } = useContext(Contexto)
@@ -34,9 +37,9 @@ const Lenguaje = () => {
                 <div className='container-fluid'>
                     <h1 className='mx-auto'>{titulo}</h1>
                     <div className='lenguajes'>
-                        <div className='flag' onClick={cambio1}><img src="../images/uk.png" alt='uk' /></div>
-                        <div className='flag' onClick={cambio2}><img src="../images/spain.jpg" alt='spain' /></div>
-                        <div className='flag' onClick={cambio3}><img src="../images/velaryon.png" alt='valiryon' /></div>
+                        <div className='flag' onClick={cambio1}><img src={uk} /></div>
+                        <div className='flag' onClick={cambio2}><img src={spain} alt='spain' /></div>
+                        <div className='flag' onClick={cambio3}><img src={valyrio} alt='valiryon' /></div>
                     </div>
                 </div>
             </nav>

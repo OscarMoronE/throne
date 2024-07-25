@@ -50,14 +50,14 @@ img {
   width: 53px;
   position: absolute;
   right: 53%;
-  top: 164%;
+  top: 165%;
 }
 
 .houseTyrell {
   width: 53px;
   position: absolute;
   right: 73%;
-  top: 204%;
+  top: 209%;
 }
 
 .houseBaratheon {
@@ -78,7 +78,7 @@ img {
   width: 53px;
   position: absolute;
   right: 74%;
-  top: 169%;
+  top: 170%;
 }
 
 .lannImg,
@@ -210,7 +210,7 @@ img {
   }
 
   .houseGreyjoy {
-    top: 41%;
+    top: 42%;
     width: 3vh;
   }
 
@@ -221,9 +221,9 @@ img {
   }
 
   .houseBaratheon {
-    top: 60%;
+    top: 59%;
     width: 3vh;
-    left: 70%;
+    left: 65%;
   }
 
   .dragon {
