@@ -1,38 +1,243 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body {
+  background-color: #FFB200;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.lenguajes {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  width: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.mapGot {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  top: 20px;
+  margin: 0 auto;
+}
+
+.houseStark {
+  width: 60px;
+  position: absolute;
+  right: 45%;
+  top: 78%;
+}
+
+.houseTargaryen {
+  width: 40px;
+  position: absolute;
+  right: 13%;
+  top: 172%;
+}
+
+.houseTully {
+  width: 53px;
+  position: absolute;
+  right: 53%;
+  top: 164%;
+}
+
+.houseTyrell {
+  width: 53px;
+  position: absolute;
+  right: 73%;
+  top: 204%;
+}
+
+.houseBaratheon {
+  width: 66px;
+  position: absolute;
+  right: 31%;
+  top: 205%;
+}
+
+.houseGreyjoy {
+  width: 59px;
+  position: absolute;
+  right: 80%;
+  top: 135%;
+}
+
+.houseLann {
+  width: 53px;
+  position: absolute;
+  right: 74%;
+  top: 169%;
+}
+
+.lannImg,
+.greyjoyImg,
+.barathImg,
+.tyrellImg,
+.tullyImg,
+.TargaryenImg,
+.starkImg,
+.nightKing,
+.dragonImg {
+  width: 100%;
+  cursor: pointer;
+}
+
+.modalContainer {
+  background-color: #2F2F2F;
+  border: 1px solid #2C3539;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  border-radius: 10px;
+  margin: 10px auto;
+  color: white;
+  position: fixed;
+  top: 30%;
+  right: 35%;
+}
+
+.imgModal {
+  width: 100px;
+  margin: auto;
+}
+
+.imgModal img {
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btnModal button {
+  background-color: #2f2f2f;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
   color: white;
+  margin-left: 95%;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.btnModal button:hover {
+  color: #FFB200;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.boxNightKing {
+  width: 120px;
+  position: absolute;
+  right: 66%;
+  top: 20%;
+}
+
+.nightKing {
+  width: 100%;
+}
+
+.dragon {
+  width: 250px;
+  position: absolute;
+  right: 20%;
+  top: 150%;
+}
+
+.dragonImg {
+  width: 100%;
+  animation: updown 8s linear infinite;
+}
+
+@keyframes updown {
+
+  0% {
+    transform: translateX(-20px);
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    transform: translateX(150px);
+  }
+
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .houseStark {
+    width: 30px;
+    position: absolute;
+    right: 45%;
+    top: 27%;
+  }
+
+  .houseTargaryen {
+    width: 17px;
+    right: 7%;
+    top: 50%;
+  }
+
+  .container-fluid h1 {
+    font-size: 2.5vh;
+    text-align: center;
+  }
+
+  .flag {
+    width: 2.3vh;
+  }
+
+  .boxNightKing {
+    width: 4vh;
+    top: 14%;
+  }
+
+  .houseLann {
+    top: 50%;
+    width: 3vh;
+  }
+
+  .houseTully {
+    top: 50%;
+    width: 3vh;
+  }
+
+  .houseGreyjoy {
+    top: 41%;
+    width: 3vh;
+  }
+
+  .houseTyrell {
+    top: 60%;
+    width: 3vh;
+    left: 23%;
+  }
+
+  .houseBaratheon {
+    top: 60%;
+    width: 3vh;
+    left: 70%;
+  }
+
+  .dragon {
+    top: 50%;
+    width: 3vh;
+    right: 50%;
+  }
+
+  .modalContainer {
+    width: 100%;
+    right: 0;
+  }
+
+  .mapGot {
+    width: 100%;
   }
 }

@@ -1,0 +1,28 @@
+.snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.snowflake {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: snowfall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(-10vh);
+    }
+
+    100% {
+        transform: translateY(100vh);
+    }
+}
