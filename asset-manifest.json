@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/throne/static/css/main.0971af1d.css",
+    "main.css": "/throne/static/css/main.f13bb07e.css",
     "main.js": "/throne/static/js/main.435f0636.js",
     "static/js/453.dda2dfbe.chunk.js": "/throne/static/js/453.dda2dfbe.chunk.js",
     "static/media/mapa.jpg": "/throne/static/media/mapa.af86bdcd67c155e98145.jpg",
     "static/media/velaryon.png": "/throne/static/media/velaryon.b2975d08d07b245c8347.png",
     "index.html": "/throne/index.html",
-    "main.0971af1d.css.map": "/throne/static/css/main.0971af1d.css.map",
+    "main.f13bb07e.css.map": "/throne/static/css/main.f13bb07e.css.map",
     "main.435f0636.js.map": "/throne/static/js/main.435f0636.js.map",
     "453.dda2dfbe.chunk.js.map": "/throne/static/js/453.dda2dfbe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0971af1d.css",
+    "static/css/main.f13bb07e.css",
     "static/js/main.435f0636.js"
   ]
 }
