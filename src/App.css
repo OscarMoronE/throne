@@ -6,6 +6,7 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  overflow-y: hidden;
 }
 
 img {
@@ -178,15 +179,15 @@ img {
 
 @media (max-width: 768px) {
   .houseStark {
-    width: 4%;
+    width: 5%;
     right: 43%;
     top: 29%;
   }
 
   .houseTargaryen {
-    width: 4%;
+    width: 5%;
     right: 10%;
-    top: 53%;
+    top: 54%;
   }
 
   .container-fluid h1 {
@@ -199,7 +200,7 @@ img {
   }
 
   .boxNightKing {
-    width: 5vh;
+    width: 6vh;
     top: 14%;
   }
 
@@ -209,7 +210,7 @@ img {
   }
 
   .houseTully {
-    top: 54%;
+    top: 52%;
     width: 3vh;
   }
 
@@ -221,18 +222,18 @@ img {
   .houseTyrell {
     top: 64%;
     width: 3vh;
-    left: 24%;
+    left: 22%;
   }
 
   .houseBaratheon {
-    top: 67%;
+    top: 64%;
     width: 4vh;
     left: 65%;
   }
 
   .dragon {
-    top: 42%;
-    width: 5vh;
+    top: 52%;
+    width: 6vh;
     right: 50%;
   }
 
