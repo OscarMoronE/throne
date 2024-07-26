@@ -37,10 +37,10 @@ img {
 }
 
 .houseStark {
-  width: 5%;
+  width: 6%;
   position: absolute;
   right: 45%;
-  top: 76%;
+  top: 77%;
 }
 
 .houseTargaryen {
@@ -53,19 +53,19 @@ img {
 .houseTully {
   width: 4%;
   position: absolute;
-  right: 52%;
-  top: 163%;
+  right: 51%;
+  top: 164%;
 }
 
 .houseTyrell {
   width: 4%;
   position: absolute;
-  right: 71%;
-  top: 205%;
+  right: 72%;
+  top: 207%;
 }
 
 .houseBaratheon {
-  width: 6%;
+  width: 7%;
   position: absolute;
   right: 30%;
   top: 204%;
@@ -81,7 +81,7 @@ img {
 .houseLann {
   width: 4%;
   position: absolute;
-  right: 74%;
+  right: 73%;
   top: 167%;
 }
 
@@ -138,10 +138,10 @@ img {
 }
 
 .boxNightKing {
-  width: 120px;
+  width: 119px;
   position: absolute;
   right: 66%;
-  top: 20%;
+  top: 19%;
   z-index: 2;
 }
 
