@@ -18,7 +18,7 @@ const Pagina = () => {
 
     const dragonAction = (e) => {
         setFire(!fire);
-        e.target.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = "##333333"
+        e.target.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = "#333333"
     }
 
     return (
