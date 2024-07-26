@@ -12,13 +12,13 @@ const Pagina = () => {
 
     const nightAction = (e) => {
         SetSnow(!snow);
-        e.target.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = "#e0e5ec"
+        e.target.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = "#333333"
         setDragons(iceDragon);
     }
 
     const dragonAction = (e) => {
         setFire(!fire);
-        e.target.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = "#EB5B00"
+        e.target.parentNode.parentNode.parentNode.parentNode.style.backgroundColor = "##333333"
     }
 
     return (
