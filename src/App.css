@@ -241,9 +241,10 @@ img {
     right: 0;
   }
 
-  .mapGot {
+  .map {
     width: 100%;
   }
+
 }
 
 @media (min-width: 1200px) {
