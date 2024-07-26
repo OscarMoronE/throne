@@ -3,7 +3,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 20vh;
+    height: 200px;
     pointer-events: none;
     z-index: 10;
     overflow: hidden;
@@ -20,12 +20,12 @@
 
 @keyframes rise {
     0% {
-        transform: scaleY(0) translateY(0);
+        transform: translateY(0) scale(1);
         opacity: 1;
     }
 
     100% {
-        transform: scaleY(2) translateY(-100px);
+        transform: translateY(-200px) scale(0);
         opacity: 0;
     }
 }
