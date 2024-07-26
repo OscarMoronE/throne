@@ -20,65 +20,68 @@ img {
 
 .flag {
   width: 30px;
-  margin: 10px;
+  margin-left: 9px;
   cursor: pointer;
+}
+
+.map {
+  position: relative;
+  width: 90%;
 }
 
 .mapGot {
   display: flex;
-  width: 90%;
   justify-content: center;
-  top: 20px;
   margin: 0 auto;
 }
 
 .houseStark {
-  width: 60px;
+  width: 5%;
   position: absolute;
   right: 45%;
-  top: 78%;
+  top: 76%;
 }
 
 .houseTargaryen {
-  width: 40px;
+  width: 4%;
   position: absolute;
   right: 13%;
-  top: 172%;
+  top: 170%;
 }
 
 .houseTully {
-  width: 53px;
+  width: 4%;
   position: absolute;
-  right: 53%;
-  top: 165%;
+  right: 52%;
+  top: 163%;
 }
 
 .houseTyrell {
-  width: 53px;
+  width: 4%;
   position: absolute;
-  right: 73%;
-  top: 209%;
-}
-
-.houseBaratheon {
-  width: 66px;
-  position: absolute;
-  right: 31%;
+  right: 71%;
   top: 205%;
 }
 
+.houseBaratheon {
+  width: 6%;
+  position: absolute;
+  right: 30%;
+  top: 204%;
+}
+
 .houseGreyjoy {
-  width: 59px;
+  width: 4%;
   position: absolute;
   right: 80%;
   top: 135%;
 }
 
 .houseLann {
-  width: 53px;
+  width: 4%;
   position: absolute;
   right: 74%;
-  top: 170%;
+  top: 167%;
 }
 
 .lannImg,
@@ -138,6 +141,7 @@ img {
   position: absolute;
   right: 66%;
   top: 20%;
+  z-index: 2;
 }
 
 .nightKing {
@@ -145,10 +149,11 @@ img {
 }
 
 .dragon {
-  width: 250px;
+  width: 13%;
   position: absolute;
   right: 20%;
-  top: 150%;
+  top: 157%;
+  z-index: 2;
 }
 
 .dragonImg {
@@ -174,14 +179,14 @@ img {
 @media (max-width: 768px) {
   .houseStark {
     width: 30px;
-    right: 45%;
-    top: 31%;
+    right: 43%;
+    top: 24.5%;
   }
 
   .houseTargaryen {
     width: 17px;
-    right: 7%;
-    top: 57%;
+    right: 11%;
+    top: 45%;
   }
 
   .container-fluid h1 {
@@ -195,38 +200,38 @@ img {
 
   .boxNightKing {
     width: 4vh;
-    top: 16%;
+    top: 13%;
   }
 
   .houseLann {
-    top: 56%;
-    width: 3vh;
+    top: 45%;
+    width: 2vh;
   }
 
   .houseTully {
-    top: 55%;
-    width: 3vh;
+    top: 44%;
+    width: 2.3vh;
   }
 
   .houseGreyjoy {
-    top: 46%;
+    top: 37%;
     width: 3vh;
   }
 
   .houseTyrell {
-    top: 66%;
-    width: 3vh;
-    left: 21%;
+    top: 53%;
+    width: 2.3vh;
+    left: 24%;
   }
 
   .houseBaratheon {
-    top: 66%;
+    top: 53%;
     width: 3vh;
     left: 65%;
   }
 
   .dragon {
-    top: 50%;
+    top: 42%;
     width: 3vh;
     right: 50%;
   }
@@ -238,5 +243,49 @@ img {
 
   .mapGot {
     width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .houseStark {
+    width: 4%;
+    right: 45%;
+    top: 73%;
+  }
+
+  .houseTargaryen {
+    width: 4%;
+    right: 13%;
+    top: 166%;
+  }
+
+  .houseTully {
+    width: 3%;
+    right: 50%;
+    top: 165%;
+  }
+
+  .houseTyrell {
+    width: 2.5%;
+    right: 73%;
+    top: 202%;
+  }
+
+  .houseBaratheon {
+    width: 5%;
+    right: 28%;
+    top: 203%;
+  }
+
+  .houseGreyjoy {
+    width: 3%;
+    right: 79%;
+    top: 134%;
+  }
+
+  .houseLann {
+    width: 3%;
+    right: 74%;
+    top: 167%;
   }
 }
